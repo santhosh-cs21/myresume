@@ -1,0 +1,58 @@
+.left{
+	background-color:black;
+	width: 20%;
+	height: 120%;
+	padding-left: 40px;
+	padding-bottom: 0px;
+	color: white;
+}
+img{
+	size: 100%;
+	height: 20%;
+	width: 80%;
+	margin: 15px;
+}
+
+.data{
+	padding-left: 30px;
+	font-size: 12px;
+}
+
+#me{
+	font-family: sans-serif;	
+	padding-bottom: 7px;
+	font-size: 24px;
+	border-bottom: 3px solid rgb(244,196,48);
+}
+.contact{
+	padding-left: 30px;
+	font-size: 12px;
+}
+#con{
+	color: white;
+	font-family: sans-serif;	
+	padding-bottom: 7px;
+	font-size: 24px;
+	border-bottom: 3px solid rgb(244,196,48);
+
+}
+#edu{
+	font-family: sans-serif;	
+	padding-bottom: 7px;
+	font-size: 24px;
+	border-bottom: 3px solid rgb(244,196,48);
+}
+.education{
+	font-family:times new roman;
+	font-size: 12px;
+	padding-left: 25px;
+}
+.right{
+	width: 80%;
+	background-color: red;
+	justify-content:space-between;
+}
+
+
+
+
