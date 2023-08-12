@@ -58,7 +58,102 @@ h6{
 .right{
 	width: 83%;
 	height:100%;
-	background-color: #F89700;
 	float: right;
 	
+}
+
+.head{
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "The Beast", Georgia, serif;
+	margin-top: 4%;
+	height: 13%;
+	border:none;
+	color: black;
+	background-color: #F89700;
+}
+
+#p{
+	font-weight: normal;
+	font-family: 'Marta', sans-serif;                                                
+	font-size: 20px;
+}
+
+.obj h2{
+                                    
+	color: black;
+	margin-left: 30px;
+	border-bottom: 2px solid black;
+}
+.obj{
+	margin-right: 50px;
+}
+.obj p{
+	margin-left: 30px;
+}
+.fields h2{
+	color: black;
+	margin-left: 30px;
+	border-bottom: 2px solid black;
+}
+
+.fields{
+	margin-right: 50px;
+}
+.fields ul{
+	margin-left: 30px;
+	list-style: none;
+}
+
+.skill h2{
+	margin-right: 50px;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+#skill{
+	margin-left: 30px;
+	float: left;
+	
+}
+
+#skill h4{
+	border-bottom: 1px solid black;
+	color: black;
+	margin-left: 10px;
+}
+
+#skill ul{
+	padding-top: 10px;
+	list-style: none;
+	margin-left: 30px;
+}
+#skill ul li{
+	padding-bottom: 10px;
+}
+
+.summary{
+	width: 80%;
+	
+	float: right;
+	margin-right: 50px;
+}
+
+.summary h4{
+	border-bottom: 1px solid black;
+	color: black;
+
+}
+
+.summary p{
+	border-top: 10px;
+	padding-top: 10px;
+	border: 0px 0px 0px 1px solid black;
+	color: black;
+	margin-left: 50px;
+	padding-bottom: 10px;
+	height: 26%;
+	overflow: scroll;
 }
