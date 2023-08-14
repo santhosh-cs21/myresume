@@ -135,12 +135,38 @@ h6{
 .acquire ul li{
 	padding-left:15px;
 	padding-bottom:15px;
+	
 }
 
-.acquire ul li button{
-	margin-left:10px;
-	color:red;
-	padding:5px;
+.acquire img{
+	margin-right: 10px;
+	margin-left: 2px;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+}
+
+.acquire button{
+	margin-bottom: 1px;
+	padding: 2px;
+	padding-right: 4px;
+	align-items: center;
+	display: flex;
+	float: right;
+	color: white;
+	background-color: #4081EC;
+}
+#m {
+	padding-right: 4px;
+	margin: 0px;
+	background-color: white;
+	color: black;
+}
+#m img {
+	padding: 0px;
+	margin: 0px;
+	width: 45px;
+	height: 45px;
 }
 .skill{
          float:right;
@@ -165,8 +191,10 @@ h6{
 	padding-bottom:5px;
 }
 
-.summary{
+.s1{
+	height: 20%;
 	width:100%;
+	overflow: scroll;
 }
 .summary h2{
 	margin-left:30px;
@@ -176,18 +204,6 @@ h6{
 }
 
 .summary p{
-	border-top: 10px;
-	padding-top: 10px;
-	border: 0px 0px 0px 1px solid black;
-	color: black;
-	margin-left: 50px;
-	padding-bottom: 10px;
-	height: 26%;
-	overflow: scroll;
+	padding-left: 30px;
+	padding-bottom: 15px;
 }
-
-
-
-
-
-
