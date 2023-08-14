@@ -93,68 +93,84 @@ h6{
 .obj p{
 	margin-left: 30px;
 }
+
+.fields {
+         float:left;
+         width:30%;
+         height:280px;
+        
+}
+
 .fields h2{
 	color: black;
 	margin-left: 30px;
 	border-bottom: 2px solid black;
 }
 
-.fields{
-	margin-right: 50px;
-	float:left;
-}
 .fields ul{
+	padding-left:15px;
 	margin-left: 30px;
 	list-style: none;
 }
 
+.fields ul li{
+	padding-bottom:10px;
+}
+.acquire{
+	 float:left;
+         width:40%;
+         height:280px;
+        
+}
+
 .acquire h2{
-	margin-right: 50px;
+	margin-left:5px;
         color: black;
         border-bottom: 2px solid black;
 }
 
-.acquire{
-	float:right;
+.acquire ul{
+	list-style: none;
+}
+.acquire ul li{
+	padding-left:15px;
+	padding-bottom:15px;
+}
 
+.acquire ul li button{
+	margin-left:10px;
+	color:red;
+	padding:5px;
+}
+.skill{
+         float:right;
+         width:30%;
+         height:280px;
+         
 }
 
 .skill h2{
+	margin-left:5px;
 	margin-right: 50px;
 	color: black;
 	border-bottom: 2px solid black;
 }
 
-#skill{
-	margin-left: 30px;
-	float: left;
-	
+.skill ul{
+	padding-left:15px;
+	list-style:none;
 }
 
-#skill h4{
-	border-bottom: 1px solid black;
-	color: black;
-	margin-left: 10px;
-}
-
-#skill ul{
-	padding-top: 10px;
-	list-style: none;
-	margin-left: 30px;
-}
-#skill ul li{
-	padding-bottom: 10px;
+.skill ul li{
+	padding-bottom:5px;
 }
 
 .summary{
-	width: 80%;
-	
-	float: right;
-	margin-right: 50px;
+	width:100%;
 }
-
-.summary h4{
-	border-bottom: 1px solid black;
+.summary h2{
+	margin-left:30px;
+	border-bottom: 2px solid black;
 	color: black;
 
 }
@@ -169,3 +185,9 @@ h6{
 	height: 26%;
 	overflow: scroll;
 }
+
+
+
+
+
+
