@@ -204,3 +204,148 @@ h6{
 	padding-left: 30px;
 	padding-bottom: 15px;
 }
+
+
+
+/*Media */
+
+@media (max-width: 530px){
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.left{
+		width: 30%;
+		height: 75%;
+	}
+
+	.left img {
+		padding-top: 10px;
+		height: 6%;
+		object-fit: contain;
+	}
+
+	h4{
+		margin-top: 10px;
+		padding-top: 20px;
+	}
+
+	.left h2{
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+
+
+
+
+
+
+
+
+
+	.right{
+		margin: 0px;
+		width: 70%;
+		height: 75%;
+	}
+
+	.head{
+		margin-top:10%;
+		height: 6%;
+	}
+
+	.head h1{
+		font-size: 40px;
+	}
+
+	.right h2{
+		margin: 0px;
+		margin-left: 5px;
+
+		font-size: 18px;
+	}
+
+	.obj{
+		width: 97%;
+		margin: 0px;
+		margin-right: 10px;
+		
+	}
+
+	.obj p{
+		padding-top:10px;
+		font-size: 14px;
+		margin: 0px;
+		margin-left: 12px;
+		margin-right: 10px;
+	}
+
+	
+	.fields {
+		margin-right: 10px;
+		 
+     	 float:none;
+     	 width: 97%;
+         height: 190px;
+         
+        }
+
+	
+
+	.fields ul{
+		padding-top: 10px;
+		font-size: 15px;
+		margin-left: 12px;
+		list-style: none;
+	}
+
+	.fields ul li{
+		padding-bottom:10px;
+	}
+	
+
+	.acquire{
+		
+		float:none;
+	    width:97%;
+        height:280px;
+    }
+
+	.acquire ul{
+	
+		list-style: none;
+	}
+	.acquire ul li{
+		padding-left:15px;
+		padding-bottom:15px;
+	}
+
+
+	.skill{
+		
+		float: none;
+		width: 97%;
+	}
+
+	.summary{
+		
+		width: 97%;
+	}
+
+	.s1{
+		width: 97%;
+		height: 15%;
+		
+	}
+	.summary p{
+
+	}
+
+
+
+
+
+
+}
